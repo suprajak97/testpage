@@ -38,7 +38,9 @@ body {
     aspect-ratio: 9 / 2;
   }
 }
-
+.mobile-only-image {
+  display: none;
+}
 .site-header {
   background-color: $site-header;
   
@@ -392,6 +394,15 @@ body {
     position: relative;
     text-align: center;
     width: 82%;
+}
+.desktop-only-image {
+  display: none;
+}
+.mobile-only-image {
+  display: block;
+    width: 100%;  
+    height: auto;    
+    margin: 0 auto;  
 }
 }
 
