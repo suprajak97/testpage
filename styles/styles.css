@@ -87,6 +87,7 @@ body {
 }
 
 .features .feature h3 {
+  font-weight: normal;
   color: #00945F;
   margin-bottom: 0.5rem;
 }
